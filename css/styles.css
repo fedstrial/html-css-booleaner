@@ -2,7 +2,7 @@ body {
     font-family: Verdana, Geneva, Tahoma;
 }
 
-header {
+#banner {
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
     background-color: #4fa1fe;
@@ -63,15 +63,15 @@ th {
 
 #suggested-article-1 {
     background-image: url("../img/monitor.jpg");
-    background-size: contain;
+    background-size: cover;
     height: 200px;
-    max-width: 300px;
+    width: 300px;
 }
 
 
 #suggested-article-2 {
     background-image: url("../img/graph.jpg");
-    background-size: contain;
+    background-size: cover;
     height: 200px;
-    max-width: 300px;
+    width: 300px;
 }

@@ -1,11 +1,11 @@
 body {
     font-family: Verdana, Geneva, Tahoma;
+    margin: 0;
 }
 
-header {
-    background-image: url("../img/pattern.png");
-    background-repeat: repeat;
-    background-color: #4fa1fe;
+main { 
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 figcaption {
@@ -18,12 +18,28 @@ th {
     color: white;
 }
 
+ul {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+#banner {
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    background-color: #4fa1fe;
+}
+
 #logo {
     width: 20%;
+    padding-top: 5%;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 #title {
     font-size: 50px;
+    margin-bottom: 0;
 }
 
 #author,
@@ -43,6 +59,12 @@ th {
 
 #date {
     font-size: small;
+    margin-top: 0;
+}
+
+#figures {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .highlighted-text {
@@ -53,25 +75,32 @@ th {
     background-color: lightblue;
 }
 
+#bottomarticle {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 #suggestions {
     width: 20%;
 }
 
 .suggestion {
     color: white;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 #suggested-article-1 {
     background-image: url("../img/monitor.jpg");
-    background-size: contain;
+    background-size: cover;
     height: 200px;
-    max-width: 300px;
+    width: 300px;
 }
 
 
 #suggested-article-2 {
     background-image: url("../img/graph.jpg");
-    background-size: contain;
+    background-size: cover;
     height: 200px;
-    max-width: 300px;
+    width: 300px;
 }
