@@ -12,6 +12,12 @@ figcaption {
     font-size: small;
 }
 
+th {
+    text-align: left;
+    background-color: #4fa1fe;
+    color: white;
+}
+
 #logo {
     width: 20%;
 }
@@ -20,11 +26,14 @@ figcaption {
     font-size: 300%;
 }
 
-#author, #author-name {
+#author,
+#author-name {
     font-size: large;
 }
 
-#author, #date {
+#author,
+#date,
+.might-interest {
     color: gray;
 }
 
@@ -38,4 +47,31 @@ figcaption {
 
 .highlighted-text {
     background-color: yellow;
+}
+
+.highlighted-row {
+    background-color: lightblue;
+}
+
+#suggestions {
+    width: 20%;
+}
+
+.suggestion {
+    color: white;
+}
+
+#suggested-article-1 {
+    background-image: url("../img/monitor.jpg");
+    background-size: contain;
+    height: 200px;
+    max-width: 300px;
+}
+
+
+#suggested-article-2 {
+    background-image: url("../img/graph.jpg");
+    background-size: contain;
+    height: 200px;
+    max-width: 300px;
 }
