@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+header {
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    background-color: #4fa1fe;
+}
+
+figcaption {
+    font-size: small;
+}
+
+th {
+    text-align: left;
+    background-color: #4fa1fe;
+    color: white;
+}
+
+#logo {
+    width: 20%;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#author,
+#author-name {
+    font-size: large;
+}
+
+#author,
+#date,
+.might-interest {
+    color: gray;
+}
+
+#author-name {
+    color: cyan;
+}
+
+#date {
+    font-size: small;
+}
+
+.highlighted-text {
+    background-color: yellow;
+}
+
+.highlighted-row {
+    background-color: lightblue;
+}
+
+#suggestions {
+    width: 20%;
+}
+
+.suggestion {
+    color: white;
+}
+
+#suggested-article-1 {
+    background-image: url("../img/monitor.jpg");
+    background-size: contain;
+    height: 200px;
+    max-width: 300px;
+}
+
+
+#suggested-article-2 {
+    background-image: url("../img/graph.jpg");
+    background-size: contain;
+    height: 200px;
+    max-width: 300px;
+}
