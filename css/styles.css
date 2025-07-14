@@ -1,0 +1,16 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+header {
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    background-color: blue;
+}
+
+#logo {
+    max-width: 20%;
+}
+
