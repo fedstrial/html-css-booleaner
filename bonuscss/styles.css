@@ -28,13 +28,17 @@ ul {
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
     background-color: #4fa1fe;
+    background-size: 30%;
+}
+
+#logocontainer {
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 #logo {
     width: 20%;
     padding-top: 5%;
-    padding-right: 15%;
-    padding-left: 15%;
 }
 
 #title {

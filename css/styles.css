@@ -6,6 +6,7 @@ body {
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
     background-color: #4fa1fe;
+    background-size: 30%;
 }
 
 figcaption {
